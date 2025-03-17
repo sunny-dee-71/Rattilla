@@ -1,0 +1,622 @@
+<html lang="en"><head>
+  <!-- Meta -->
+  <title>Scintilla Elite - Can Your Menu Do This?</title>
+  <meta charset="utf-8">
+  <link rel="icon" href="images/scintilla_icon.ico" type="image/x-icon">
+  <meta name="description" content="Scintilla - Can Your Menu Do This? A powerful gorilla tag cheat designed to destroy lobbies and games with ease. ">
+  <meta name="keywords" content="scintilla,gorilla tag,gorilla tag hacks,gorilla tag cheat,gorilla tag external,gorilla tag menu,gorillatagmodmenu,mod menu gorilla tag">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Scintilla - Can Your Menu Do This? A powerful gorilla tag cheat designed to destroy lobbies and games with ease. ">
+  <meta property="og:description" content="Scintilla - Can Your Menu Do This? A powerful gorilla tag cheat designed to destroy lobbies and games with ease. ">
+  <meta property="og:url" content="https://scintilla.wtf/">
+  <meta property="og:site_name" content="Scintilla">
+  <meta property="og:image" content="images/scin_logo.png">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Scintilla - Can Your Menu Do This? A powerful gorilla tag cheat designed to destroy lobbies and games with ease. ">
+  <meta name="twitter:description" content="Scintilla - Can Your Menu Do This? A powerful gorilla tag cheat designed to destroy lobbies and games with ease. ">
+  <meta name="twitter:image" content="assets/images/scin_logo.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/animation.css">
+
+  <!-- Scripts -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script defer="" src="js/cdn.min.js"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            inter: ['Inter', 'sans-serif'],
+          },
+          animation: {
+            'infinite-scroll': 'infinite-scroll 50s linear infinite',
+            border: 'border 4s linear infinite',
+          },
+          keyframes: {
+            'infinite-scroll': {
+              from: { transform: 'translateX(0)' },
+              to: { transform: 'translateX(-100%)' },
+            },
+            'border': {
+              to: { '--border-angle': '360deg' },
+            },
+          },
+        },
+      },
+    };
+  </script>
+<style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.16 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.pointer-events-none{pointer-events:none}.absolute{position:absolute}.relative{position:relative}.inset-0{inset:0px}.inset-\[-1000\%\]{inset:-1000%}.-bottom-0{bottom:-0px}.left-0{left:0px}.left-\[1\.125rem\]{left:1.125rem}.right-0{right:0px}.top-0{top:0px}.top-10{top:2.5rem}.z-10{z-index:10}.mx-auto{margin-left:auto;margin-right:auto}.mb-1{margin-bottom:0.25rem}.mb-2{margin-bottom:0.5rem}.mb-3{margin-bottom:0.75rem}.mb-4{margin-bottom:1rem}.mb-5{margin-bottom:1.25rem}.mb-8{margin-bottom:2rem}.mr-3{margin-right:0.75rem}.inline-block{display:inline-block}.flex{display:flex}.inline-flex{display:inline-flex}.h-0{height:0px}.h-10{height:2.5rem}.h-3{height:0.75rem}.h-\[350px\]{height:350px}.h-full{height:100%}.h-px{height:1px}.min-h-screen{min-height:100vh}.w-3{width:0.75rem}.w-\[420px\]{width:420px}.w-\[calc\(100\%-2\.25rem\)\]{width:calc(100% - 2.25rem)}.w-full{width:100%}.max-w-3xl{max-width:48rem}.max-w-5xl{max-width:64rem}.max-w-6xl{max-width:72rem}.max-w-none{max-width:none}.shrink-0{flex-shrink:0}.grow{flex-grow:1}.-translate-x-3\/4{--tw-translate-x:-75%;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.-translate-y-1\/2{--tw-translate-y:-50%;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.translate-x-1\/4{--tw-translate-x:25%;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.rotate-180{--tw-rotate:180deg;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.-scale-x-100{--tw-scale-x:-1;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}@keyframes spin{to{transform:rotate(360deg)}}.animate-\[spin_2s_linear_infinite\]{animation:spin 2s linear infinite}@keyframes border{to{--border-angle:360deg}}.animate-border{animation:border 4s linear infinite}@keyframes infinite-scroll{from{transform:translateX(0)}to{transform:translateX(-100%)}}.animate-infinite-scroll{animation:infinite-scroll 50s linear infinite}.cursor-pointer{cursor:pointer}.select-none{-webkit-user-select:none;user-select:none}.flex-row{flex-direction:row}.flex-col{flex-direction:column}.flex-nowrap{flex-wrap:nowrap}.items-center{align-items:center}.items-baseline{align-items:baseline}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-2{gap:0.5rem}.gap-4{gap:1rem}.gap-5{gap:1.25rem}.gap-6{gap:1.5rem}.space-x-2 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(0.5rem * var(--tw-space-x-reverse));margin-left:calc(0.5rem * calc(1 - var(--tw-space-x-reverse)))}.space-x-4 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(1rem * var(--tw-space-x-reverse));margin-left:calc(1rem * calc(1 - var(--tw-space-x-reverse)))}.space-y-10 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(2.5rem * var(--tw-space-y-reverse))}.space-y-3 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.75rem * var(--tw-space-y-reverse))}.overflow-hidden{overflow:hidden}.rounded-2xl{border-radius:1rem}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.border{border-width:1px}.border-solid{border-style:solid}.border-gray-500{--tw-border-opacity:1;border-color:rgb(107 114 128 / var(--tw-border-opacity, 1))}.border-transparent{border-color:transparent}.bg-slate-800{--tw-bg-opacity:1;background-color:rgb(30 41 59 / var(--tw-bg-opacity, 1))}.bg-transparent{background-color:transparent}.bg-zinc-900{--tw-bg-opacity:1;background-color:rgb(24 24 27 / var(--tw-bg-opacity, 1))}.bg-\[conic-gradient\(from_90deg_at_50\%_50\%\2c \#E2CBFF_0\%\2c \#393BB2_50\%\2c \#E2CBFF_100\%\)\]{background-image:conic-gradient(from 90deg at 50% 50%,#E2CBFF 0%,#393BB2 50%,#E2CBFF 100%)}.bg-\[image\:radial-gradient\(75\%_100\%_at_50\%_0\%\2c rgba\(76\2c 29\2c 149\2c 0\.6\)_0\%\2c rgba\(76\2c 29\2c 149\2c 0\)_75\%\)\]{background-image:radial-gradient(75% 100% at 50% 0%,rgba(76,29,149,0.6) 0%,rgba(76,29,149,0) 75%)}.bg-gradient-to-r{background-image:linear-gradient(to right, var(--tw-gradient-stops))}.from-indigo-400\/0{--tw-gradient-from:rgb(129 140 248 / 0) var(--tw-gradient-from-position);--tw-gradient-to:rgb(129 140 248 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-slate-200\/60{--tw-gradient-from:rgb(226 232 240 / 0.6) var(--tw-gradient-from-position);--tw-gradient-to:rgb(226 232 240 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.via-indigo-400\/90{--tw-gradient-to:rgb(129 140 248 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), rgb(129 140 248 / 0.9) var(--tw-gradient-via-position), var(--tw-gradient-to)}.via-slate-200{--tw-gradient-to:rgb(226 232 240 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), #e2e8f0 var(--tw-gradient-via-position), var(--tw-gradient-to)}.to-indigo-400\/0{--tw-gradient-to:rgb(129 140 248 / 0) var(--tw-gradient-to-position)}.to-slate-200\/60{--tw-gradient-to:rgb(226 232 240 / 0.6) var(--tw-gradient-to-position)}.bg-clip-text{-webkit-background-clip:text;background-clip:text}.fill-emerald-500{fill:#10b981}.fill-red-500{fill:#ef4444}.p-5{padding:1.25rem}.p-6{padding:1.5rem}.p-\[1px\]{padding:1px}.p-px{padding:1px}.px-3\.5{padding-left:0.875rem;padding-right:0.875rem}.px-4{padding-left:1rem;padding-right:1rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.py-1{padding-top:0.25rem;padding-bottom:0.25rem}.py-2\.5{padding-top:0.625rem;padding-bottom:0.625rem}.py-24{padding-top:6rem;padding-bottom:6rem}.pb-1{padding-bottom:0.25rem}.pb-24{padding-bottom:6rem}.pb-4{padding-bottom:1rem}.pb-\[56\.25\%\]{padding-bottom:56.25%}.pt-1{padding-top:0.25rem}.pt-2{padding-top:0.5rem}.pt-5{padding-top:1.25rem}.pt-6{padding-top:1.5rem}.text-center{text-align:center}.text-start{text-align:start}.font-inter{font-family:Inter, sans-serif}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-4xl{font-size:2.25rem;line-height:2.5rem}.text-5xl{font-size:3rem;line-height:1}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-bold{font-weight:700}.font-extrabold{font-weight:800}.font-medium{font-weight:500}.font-semibold{font-weight:600}.leading-6{line-height:1.5rem}.text-slate-200{--tw-text-opacity:1;color:rgb(226 232 240 / var(--tw-text-opacity, 1))}.text-slate-300{--tw-text-opacity:1;color:rgb(203 213 225 / var(--tw-text-opacity, 1))}.text-slate-400{--tw-text-opacity:1;color:rgb(148 163 184 / var(--tw-text-opacity, 1))}.text-slate-500{--tw-text-opacity:1;color:rgb(100 116 139 / var(--tw-text-opacity, 1))}.text-slate-600{--tw-text-opacity:1;color:rgb(71 85 105 / var(--tw-text-opacity, 1))}.text-transparent{color:transparent}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.text-zinc-900{--tw-text-opacity:1;color:rgb(24 24 27 / var(--tw-text-opacity, 1))}.no-underline{-webkit-text-decoration-line:none;text-decoration-line:none}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.opacity-0{opacity:0}.opacity-70{opacity:0.7}.shadow{--tw-shadow:0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-2xl{--tw-shadow:0 25px 50px -12px rgb(0 0 0 / 0.25);--tw-shadow-colored:0 25px 50px -12px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-gray-600\/10{--tw-shadow-color:rgb(75 85 99 / 0.1);--tw-shadow:var(--tw-shadow-colored)}.shadow-slate-950\/5{--tw-shadow-color:rgb(2 6 23 / 0.05);--tw-shadow:var(--tw-shadow-colored)}.shadow-zinc-900{--tw-shadow-color:#18181b;--tw-shadow:var(--tw-shadow-colored)}.ring-1{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)}.ring-white\/10{--tw-ring-color:rgb(255 255 255 / 0.1)}.blur-3xl{--tw-blur:blur(64px);filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.backdrop-blur-3xl{--tw-backdrop-blur:blur(64px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-opacity{transition-property:opacity;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.duration-300{transition-duration:300ms}.duration-500{transition-duration:500ms}.\[background\:linear-gradient\(45deg\2c \#18181b\2c theme\(colors\.zinc\.900\)_50\%\2c \#18181b\)_padding-box\2c conic-gradient\(from_var\(--border-angle\)\2c theme\(colors\.slate\.600\/\.48\)_80\%\2c _theme\(colors\.blue\.600\)_86\%\2c _theme\(colors\.blue\.300\)_90\%\2c _theme\(colors\.indigo\.500\)_94\%\2c _theme\(colors\.slate\.600\/\.48\)\)_border-box\]{background:linear-gradient(45deg,#18181b,#18181b 50%,#18181b) padding-box,conic-gradient(from var(--border-angle),rgb(71 85 105 / .48) 80%, #2563eb 86%, #93c5fd 90%, #6366f1 94%, rgb(71 85 105 / .48)) border-box}.\[mask-image\:_linear-gradient\(to_right\2c transparent_0\2c _black_128px\2c _black_calc\(100\%-128px\)\2c transparent_100\%\)\]{-webkit-mask-image:linear-gradient(to right,transparent 0, black 128px, black calc(100% - 128px),transparent 100%);mask-image:linear-gradient(to right,transparent 0, black 128px, black calc(100% - 128px),transparent 100%)}.before\:pointer-events-none::before{content:var(--tw-content);pointer-events:none}.before\:z-10::before{content:var(--tw-content);z-index:10}.before\:translate-x-\[var\(--mouse-x\)\]::before{content:var(--tw-content);--tw-translate-x:var(--mouse-x);transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.before\:translate-y-\[var\(--mouse-y\)\]::before{content:var(--tw-content);--tw-translate-y:var(--mouse-y);transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.before\:rounded-full::before{content:var(--tw-content);border-radius:9999px}.before\:opacity-0::before{content:var(--tw-content);opacity:0}.before\:blur-\[100px\]::before{content:var(--tw-content);--tw-blur:blur(100px);filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.before\:transition-opacity::before{content:var(--tw-content);transition-property:opacity;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.before\:duration-500::before{content:var(--tw-content);transition-duration:500ms}.after\:pointer-events-none::after{content:var(--tw-content);pointer-events:none}.after\:absolute::after{content:var(--tw-content);position:absolute}.after\:-left-48::after{content:var(--tw-content);left:-12rem}.after\:-top-48::after{content:var(--tw-content);top:-12rem}.after\:z-30::after{content:var(--tw-content);z-index:30}.after\:h-96::after{content:var(--tw-content);height:24rem}.after\:w-96::after{content:var(--tw-content);width:24rem}.after\:translate-x-\[var\(--mouse-x\)\]::after{content:var(--tw-content);--tw-translate-x:var(--mouse-x);transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.after\:translate-y-\[var\(--mouse-y\)\]::after{content:var(--tw-content);--tw-translate-y:var(--mouse-y);transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.after\:rounded-full::after{content:var(--tw-content);border-radius:9999px}.after\:bg-indigo-500::after{content:var(--tw-content);--tw-bg-opacity:1;background-color:rgb(99 102 241 / var(--tw-bg-opacity, 1))}.after\:opacity-0::after{content:var(--tw-content);opacity:0}.after\:blur-\[100px\]::after{content:var(--tw-content);--tw-blur:blur(100px);filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.after\:transition-opacity::after{content:var(--tw-content);transition-property:opacity;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.after\:duration-500::after{content:var(--tw-content);transition-duration:500ms}.hover\:border-gray-300:hover{--tw-border-opacity:1;border-color:rgb(209 213 219 / var(--tw-border-opacity, 1))}.after\:hover\:opacity-10:hover::after{content:var(--tw-content);opacity:0.1}.focus\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}.focus\:ring-2:focus{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)}.focus\:ring-slate-400:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(148 163 184 / var(--tw-ring-opacity, 1))}.focus\:ring-offset-2:focus{--tw-ring-offset-width:2px}.focus\:ring-offset-slate-50:focus{--tw-ring-offset-color:#f8fafc}.group:hover .group-hover\:opacity-100{opacity:1}.group:hover .group-hover\:opacity-40{opacity:0.4}.group:hover .before\:group-hover\:opacity-100::before{content:var(--tw-content);opacity:1}.dark\:text-slate-200:is(.dark *){--tw-text-opacity:1;color:rgb(226 232 240 / var(--tw-text-opacity, 1))}.dark\:text-slate-400:is(.dark *){--tw-text-opacity:1;color:rgb(148 163 184 / var(--tw-text-opacity, 1))}@media (min-width: 640px){.sm\:flex-row{flex-direction:row}}@media (min-width: 768px){.md\:w-2\/5{width:40%}.md\:w-3\/5{width:60%}.md\:flex-row{flex-direction:row}.md\:justify-start{justify-content:flex-start}.md\:px-12{padding-left:3rem;padding-right:3rem}.md\:px-6{padding-left:1.5rem;padding-right:1.5rem}.md\:text-4xl{font-size:2.25rem;line-height:2.5rem}.md\:text-5xl{font-size:3rem;line-height:1}.md\:text-6xl{font-size:3.75rem;line-height:1}}@media (min-width: 1024px){.lg\:flex{display:flex}}.\[\&_img\]\:max-w-none img{max-width:none}.\[\&_li\]\:mx-8 li{margin-left:2rem;margin-right:2rem}</style><style>._transition0_1187j_1{transition:0s!important}._transition150_1187j_5{transition:.15s!important}._transition300_1187j_9{transition:.3s!important}._transition600_1187j_13{transition:.6s!important}._transition1000_1187j_17{transition:1s!important}._button_1pdgu_1{border:unset;background:transparent;transition:.2s}._button_1pdgu_1:hover{scale:1.5}
+</style><style>
+      body.shimeji-pinned iframe {
+        pointer-events: none;
+      }
+      body.shimeji-select-ie {
+        cursor: cell !important;
+      }
+      #shimeji-contextMenu::-webkit-scrollbar {
+        width: 6px;
+      }
+      #shimeji-contextMenu::-webkit-scrollbar-thumb {
+        background-color: rgba(30,30,30,0.6);
+        border-radius: 3px;
+      }
+      #shimeji-contextMenu::-webkit-scrollbar-thumb:hover {
+        background: #555;
+      }
+    </style><meta name="shimejiBrowserExtensionId" content="gohjpllcolmccldfdggmamodembldgpc" data-version="2.0.5"></head>
+
+<body class="bg-zinc-900 relative font-inter antialiased">
+
+    <main class="relative min-h-screen flex flex-col justify-center bg-zinc-900 overflow-hidden">
+        <div class="w-full max-w-6xl mx-auto px-4 md:px-6 py-24">
+
+            <div class="text-center">
+
+                <!-- Illustration #1 -->
+                <div class="absolute top-10 left-0 rotate-180 -translate-x-3/4 -scale-x-100 blur-3xl opacity-70 pointer-events-none" aria-hidden="true">
+                    <img src="images/glow.svg" class="max-w-none" width="852" height="582" alt="Illustration">
+                </div>
+
+                <!-- Illustration #2 -->
+                <div class="absolute top-0 right-0 -translate-y-1/2 translate-x-1/4 blur-3xl opacity-70 pointer-events-none" aria-hidden="true">
+                    <img src="images/glow.svg" class="max-w-none" width="852" height="582" alt="Illustration">
+                </div>
+
+                <div class="relative">
+
+                    <!-- Title -->
+                    <h1 class="inline-flex font-extrabold text-5xl md:text-6xl bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4">Ratilla Elite</h1>
+
+                    <div class="max-w-3xl mx-auto mb-8">
+                        <p class="text-lg text-slate-400">The Future Of Rats | Is Your Menu This Ratted</p>
+                    </div>
+
+                    <div class="inline-flex justify-center space-x-4">
+
+                      <!-- Buy now button -->
+                      <div>
+                        <a href="https://discord.gg/Vbbj2MtWYK" class="mb-4 lg:flex  bg-slate-800 no-underline group cursor-pointer relative shadow-2xl shadow-zinc-900 rounded-full p-px text-xs font-semibold leading-6  text-white inline-block">
+                          <span class="absolute inset-0 overflow-hidden rounded-full">
+                            <span class="absolute inset-0 rounded-full bg-[image:radial-gradient(75%_100%_at_50%_0%,rgba(76,29,149,0.6)_0%,rgba(76,29,149,0)_75%)] opacity-0 transition-opacity duration-500 group-hover:opacity-100"></span>
+                          </span>
+                          <div class="relative flex space-x-2 items-center z-10 rounded-full bg-zinc-900 py-1 px-6 md:px-12 ring-1 ring-white/10">
+                            <span>
+                              Get Ratted!
+                            </span>
+                            <svg fill="none" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M10.75 8.75L14.25 12L10.75 15.25" stroke="currentColor" strokelinecap="round" strokelinejoin="round" strokewidth="1.5"></path>
+                            </svg>
+                          </div>
+                          <span class="absolute -bottom-0 left-[1.125rem] h-px w-[calc(100%-2.25rem)] bg-gradient-to-r from-indigo-400/0 via-indigo-400/90 to-indigo-400/0 transition-opacity duration-500 group-hover:opacity-40"></span>
+                        </a>
+                      </div>
+
+                      <!-- Showcase Button -->
+                      <div>
+                        <a href="https://www.youtube.com/watch?v=Bqib2SIV9hs" class="mb-4 lg:flex  bg-slate-800 no-underline group cursor-pointer relative shadow-2xl shadow-zinc-900 rounded-full p-px text-xs font-semibold leading-6  text-white inline-block">
+                          <span class="absolute inset-0 overflow-hidden rounded-full">
+                            <span class="absolute inset-0 rounded-full bg-[image:radial-gradient(75%_100%_at_50%_0%,rgba(76,29,149,0.6)_0%,rgba(76,29,149,0)_75%)] opacity-0 transition-opacity duration-500 group-hover:opacity-100"></span>
+                          </span>
+                          <div class="relative flex space-x-2 items-center z-10 rounded-full bg-zinc-900 py-1 px-6 md:px-12 ring-1 ring-white/10">
+                            <span>
+                              Watch Somebody Get Ratted
+                            </span>
+                            <svg fill="none" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M10.75 8.75L14.25 12L10.75 15.25" stroke="currentColor" strokelinecap="round" strokelinejoin="round" strokewidth="1.5"></path>
+                            </svg>
+                          </div>
+                          <span class="absolute -bottom-0 left-[1.125rem] h-px w-[calc(100%-2.25rem)] bg-gradient-to-r from-indigo-400/0 via-indigo-400/90 to-indigo-400/0 transition-opacity duration-500 group-hover:opacity-40"></span>
+                        </a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Particles Animation -->
+        <div class="absolute inset-0 pointer-events-none" aria-hidden="true">
+          <canvas data-particle-animation="" width="1253" height="920" style="width: 1253px; height: 920px;"></canvas>
+        </div>
+
+    </main>
+
+    <section class="bg-zinc-900 overflow-hidden min-h-screen">
+      <div class="w-full max-w-5xl mx-auto px-4 md:px-6 py-24">
+          <div class="text-center">
+              <div class="relative">
+                  <h1 class="inline-flex font-extrabold text-4xl md:text-5xl bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4">New Gorilla Tag Rat</h1>
+              </div>
+              <div class="max-w-3xl mx-auto mb-8">
+                  <p class="text-lg text-slate-400">A powerful gorilla tag rat designed to destroy your pc</p>
+              </div>
+          </div>
+          <div class="space-y-10">
+            <div class="w-full border-solid border rounded-lg relative overflow-hidden pb-[56.25%] h-0">
+              <iframe class="w-full h-full absolute top-0 left-0" src="https://www.youtube.com/embed/Bqib2SIV9hs" loading="lazy" title="Scintilla v22 Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+            </div>
+            <div class="flex flex-col sm:flex-row justify-between gap-5 animate-fadeIn" data-spotlight="" reveal="">
+                <div class="w-full md:w-3/5 h-full relative border-solid border rounded-lg p-5 shadow-2xl shadow-gray-600/10 before:rounded-full before:opacity-0 before:pointer-events-none before:transition-opacity before:duration-500 before:translate-x-[var(--mouse-x)] before:translate-y-[var(--mouse-y)] before:group-hover:opacity-100 before:z-10 before:blur-[100px] after:absolute after:w-96 after:h-96 after:-left-48 after:-top-48 after:bg-indigo-500 after:rounded-full after:opacity-0 after:pointer-events-none after:transition-opacity after:duration-500 after:translate-x-[var(--mouse-x)] after:translate-y-[var(--mouse-y)] after:hover:opacity-10 after:z-30 after:blur-[100px] overflow-hidden" style="--mouse-x: 822.5px; --mouse-y: 8px;">
+                    <div>
+                        <h1 class="inline-flex font-extrabold text-3xl md:text-4xl bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4">
+                            Detectable
+                        </h1>
+                        <p class="text-l text-slate-400">
+                          Scintilla has been rigorously tested using some of the most trusted detection tools in the Gorilla Tag community, the rats are and the menu are detected
+                        </p>
+                    </div>
+                    <div class="flex flex-row gap-2 items-center select-none">
+                    </div>
+                </div>
+                <div class="w-full md:w-2/5 relative border-solid border rounded-lg p-5 shadow-2xl shadow-gray-600/10 before:rounded-full before:opacity-0 before:pointer-events-none before:transition-opacity before:duration-500 before:translate-x-[var(--mouse-x)] before:translate-y-[var(--mouse-y)] before:group-hover:opacity-100 before:z-10 before:blur-[100px] after:absolute after:w-96 after:h-96 after:-left-48 after:-top-48 after:bg-indigo-500 after:rounded-full after:opacity-0 after:pointer-events-none after:transition-opacity after:duration-500 after:translate-x-[var(--mouse-x)] after:translate-y-[var(--mouse-y)] after:hover:opacity-10 after:z-30 after:blur-[100px] overflow-hidden" style="--mouse-x: 229.078125px; --mouse-y: 8px;">
+                  <h1 class="inline-flex font-extrabold text-3xl md:text-4xl bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4">
+                    Ultimate Rats
+                  </h1>
+                  <p class="text-lg text-slate-400">
+                    Count on a menu that rats you
+                  </p>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <section class="bg-zinc-900 pt-5">
+      <div class="text-center">
+          <div class="relative">
+              <h1 class="inline-flex font-extrabold text-4xl md:text-5xl bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4">Shitty price</h1>
+          </div>
+          <div class="max-w-3xl mx-auto mb-8">
+              <p class="text-lg text-slate-400">We Need Money And Rat Clients Buy Now</p>
+          </div>
+      </div>
+
+      <!-- Card Container -->
+      <div class="flex flex-col md:flex-row gap-6 justify-center max-w-5xl mx-auto px-4 md:px-6 pt-6 pb-24 animate-fadeIn" reveal="">
+
+        <!-- 1 Card -->
+        <div class="dark h-full [background:linear-gradient(45deg,#18181b,theme(colors.zinc.900)_50%,#18181b)_padding-box,conic-gradient(from_var(--border-angle),theme(colors.slate.600/.48)_80%,_theme(colors.blue.600)_86%,_theme(colors.blue.300)_90%,_theme(colors.indigo.500)_94%,_theme(colors.slate.600/.48))_border-box] rounded-2xl border border-transparent animate-border" data-spotlight="">
+          <div class="relative flex flex-col h-full p-6 rounded-2xl bg-transparent shadow shadow-slate-950/5 before:rounded-full before:opacity-0 before:pointer-events-none before:transition-opacity before:duration-500 before:translate-x-[var(--mouse-x)] before:translate-y-[var(--mouse-y)] before:group-hover:opacity-100 before:z-10 before:blur-[100px] after:absolute after:w-96 after:h-96 after:-left-48 after:-top-48 after:bg-indigo-500 after:rounded-full after:opacity-0 after:pointer-events-none after:transition-opacity after:duration-500 after:translate-x-[var(--mouse-x)] after:translate-y-[var(--mouse-y)] after:hover:opacity-10 after:z-30 after:blur-[100px] overflow-hidden" style="--mouse-x: 267.375px; --mouse-y: 35px;">
+              <div class="mb-5">
+                  <div class="text-zinc-900 dark:text-slate-200 font-semibold mb-1">1 Week</div>
+                  <div class="inline-flex items-baseline mb-2">
+                      <span class="text-zinc-900 dark:text-slate-200 font-bold text-3xl">$</span>
+                      <span class="text-zinc-900 dark:text-slate-200 font-bold text-4xl">50</span>
+                      <span class="text-slate-500 font-medium">/we</span>
+                  </div>
+
+                  <a class="w-full relative inline-flex h-10 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50" href="https://discord.gg/Vbbj2MtWYK">
+                    <span class="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]"></span>
+                      <span class="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-zinc-900 px-3.5 py-2.5 text-sm font-medium text-white backdrop-blur-3xl">
+                      Purchase
+                      </span>
+                  </a>
+              </div>
+
+              <div class="text-zinc-900 dark:text-slate-200 font-medium mb-3">Includes:</div>
+              <ul class="text-slate-600 dark:text-slate-400 text-sm space-y-3 grow">
+                  <li class="flex items-center">
+                      <svg class="w-3 h-3 fill-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"></path>
+                      </svg>
+                      <span>Free rats</span>
+                  </li>
+                  <li class="flex items-center">
+                      <svg class="w-3 h-3 fill-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"></path>
+                      </svg>
+                      <span>Free rats</span>
+                  </li>
+                  <li class="flex items-center">
+                      <svg class="w-3 h-3 fill-red-500 mr-3 shrink-0" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 14.545L1.455 16 8 9.455 14.545 16 16 14.545 9.455 8 16 1.455 14.545 0 8 6.545 1.455 0 0 1.455 6.545 8z" fill-rule="evenodd"></path>
+                      </svg>
+                      <span>A Good Menu</span>
+                  </li>
+                  <li class="flex items-center">
+                      <svg class="w-3 h-3 fill-red-500 mr-3 shrink-0" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 14.545L1.455 16 8 9.455 14.545 16 16 14.545 9.455 8 16 1.455 14.545 0 8 6.545 1.455 0 0 1.455 6.545 8z" fill-rule="evenodd"></path>
+                      </svg>
+                      <span>A Non Ratted Menu</span>
+                  </li>
+                  <li class="flex items-center">
+                    <svg class="w-3 h-3 fill-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"></path>
+                    </svg>
+                    <span>And more free rats</span>
+                </li>
+              </ul>
+          </div>
+        </div>
+
+        <!-- 2 Card -->
+        <div class="dark h-full [background:linear-gradient(45deg,#18181b,theme(colors.zinc.900)_50%,#18181b)_padding-box,conic-gradient(from_var(--border-angle),theme(colors.slate.600/.48)_80%,_theme(colors.blue.600)_86%,_theme(colors.blue.300)_90%,_theme(colors.indigo.500)_94%,_theme(colors.slate.600/.48))_border-box] rounded-2xl border border-transparent animate-border" data-spotlight="">
+          <div class="relative flex flex-col h-full p-6 rounded-2xl bg-transparent shadow shadow-slate-950/5 before:rounded-full before:opacity-0 before:pointer-events-none before:transition-opacity before:duration-500 before:translate-x-[var(--mouse-x)] before:translate-y-[var(--mouse-y)] before:group-hover:opacity-100 before:z-10 before:blur-[100px] after:absolute after:w-96 after:h-96 after:-left-48 after:-top-48 after:bg-indigo-500 after:rounded-full after:opacity-0 after:pointer-events-none after:transition-opacity after:duration-500 after:translate-x-[var(--mouse-x)] after:translate-y-[var(--mouse-y)] after:hover:opacity-10 after:z-30 after:blur-[100px] overflow-hidden" style="--mouse-x: 256.59375px; --mouse-y: 366px;">
+              <div class="mb-5">
+                  <div class="text-zinc-900 dark:text-slate-200 font-semibold mb-1">1 Month</div>
+                  <div class="inline-flex items-baseline mb-2">
+                      <span class="text-zinc-900 dark:text-slate-200 font-bold text-3xl">$</span>
+                      <span class="text-zinc-900 dark:text-slate-200 font-bold text-4xl">80.8</span>
+                      <span class="text-slate-500 font-medium">/mo</span>
+                  </div>
+                  <a class="w-full relative inline-flex h-10 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50" href="https://discord.gg/Vbbj2MtWYK">
+                    <span class="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]"></span>
+                      <span class="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-zinc-900 px-3.5 py-2.5 text-sm font-medium text-white backdrop-blur-3xl">
+                      Purchase
+                      </span>
+                  </a>
+              </div>
+              <div class="text-zinc-900 dark:text-slate-200 font-medium mb-3">Includes:</div>
+              <ul class="text-slate-600 dark:text-slate-400 text-sm space-y-3 grow">
+                  <li class="flex items-center">
+                      <svg class="w-3 h-3 fill-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"></path>
+                      </svg>
+                      <span>Free rats</span>
+                  </li>
+                  <li class="flex items-center">
+                      <svg class="w-3 h-3 fill-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"></path>
+                      </svg>
+                      <span>Free rats</span>
+                  </li>
+                  <li class="flex items-center">
+                    <svg class="w-3 h-3 fill-red-500 mr-3 shrink-0" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 14.545L1.455 16 8 9.455 14.545 16 16 14.545 9.455 8 16 1.455 14.545 0 8 6.545 1.455 0 0 1.455 6.545 8z" fill-rule="evenodd"></path>
+                      </svg>
+                      <span>25 Big Black Guys</span>
+                  </li>
+                  <li class="flex items-center">
+                      <svg class="w-3 h-3 fill-red-500 mr-3 shrink-0" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 14.545L1.455 16 8 9.455 14.545 16 16 14.545 9.455 8 16 1.455 14.545 0 8 6.545 1.455 0 0 1.455 6.545 8z" fill-rule="evenodd"></path>
+                      </svg>
+                      <span>A Gf</span>
+                  </li>
+                  <li class="flex items-center">
+                    <svg class="w-3 h-3 fill-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"></path>
+                    </svg>
+                    <span>And more free rats</span>
+                </li>
+              </ul>
+          </div>
+        </div>
+
+        <!-- 3 Card -->
+        <div class="dark h-full [background:linear-gradient(45deg,#18181b,theme(colors.zinc.900)_50%,#18181b)_padding-box,conic-gradient(from_var(--border-angle),theme(colors.slate.600/.48)_80%,_theme(colors.blue.600)_86%,_theme(colors.blue.300)_90%,_theme(colors.indigo.500)_94%,_theme(colors.slate.600/.48))_border-box] rounded-2xl border border-transparent animate-border" data-spotlight="">
+          <div class="relative flex flex-col h-full p-6 rounded-2xl bg-transparent shadow shadow-slate-950/5 before:rounded-full before:opacity-0 before:pointer-events-none before:transition-opacity before:duration-500 before:translate-x-[var(--mouse-x)] before:translate-y-[var(--mouse-y)] before:group-hover:opacity-100 before:z-10 before:blur-[100px] after:absolute after:w-96 after:h-96 after:-left-48 after:-top-48 after:bg-indigo-500 after:rounded-full after:opacity-0 after:pointer-events-none after:transition-opacity after:duration-500 after:translate-x-[var(--mouse-x)] after:translate-y-[var(--mouse-y)] after:hover:opacity-10 after:z-30 after:blur-[100px] overflow-hidden" style="--mouse-x: 100.78125px; --mouse-y: 65px;">
+              <div class="mb-5">
+                  <div class="text-zinc-900 dark:text-slate-200 font-semibold mb-1">Lifetime</div>
+                  <div class="inline-flex items-baseline mb-2">
+                      <span class="text-zinc-900 dark:text-slate-200 font-bold text-3xl">$</span>
+                      <span class="text-zinc-900 dark:text-slate-200 font-bold text-4xl">250</span>
+                  </div>
+                  <a class="w-full relative inline-flex h-10 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50" href="https://discord.gg/Vbbj2MtWYK">
+                    <span class="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]">
+                    </span>
+                      <span class="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-zinc-900 px-3.5 py-2.5 text-sm font-medium text-white backdrop-blur-3xl">
+                      Purchase
+                      </span>
+                  </a>
+              </div>
+              <div class="text-zinc-900 dark:text-slate-200 font-medium mb-3">Includes:</div>
+              <ul class="text-slate-600 dark:text-slate-400 text-sm space-y-3 grow">
+                  <li class="flex items-center">
+                    <svg class="w-3 h-3 fill-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"></path>
+                  </svg>
+                  <span>Free rats</span>
+              </li>
+              <li class="flex items-center">
+                  <svg class="w-3 h-3 fill-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"></path>
+                  </svg>
+                  <span>Free rats</span>
+              </li>
+              <li class="flex items-center">
+                <svg class="w-3 h-3 fill-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"></path>
+                  </svg>
+                  <span>Free rats</span>
+              </li>
+              <li class="flex items-center">
+                <svg class="w-3 h-3 fill-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"></path>
+                  </svg>
+                  <span>Free rats</span>
+              </li>
+              <li class="flex items-center">
+                <svg class="w-3 h-3 fill-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"></path>
+                </svg>
+                <span>And more free rats</span>
+                  </li>
+              </ul>
+          </div>
+        </div>
+    </div>
+  </section>
+
+  <section class="bg-zinc-900 pt-5">
+    <div class="w-full max-w-5xl mx-auto px-4 md:px-6 py-24 animate-fadeIn" reveal="">
+      <div class="text-center">
+
+        <h1 class="inline-flex font-extrabold text-4xl md:text-5xl bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4">Reviews</h1>
+
+        <div class="max-w-3xl mx-auto mb-8">
+          <p class="text-lg text-slate-400">There are over 400+ Rats In Our Menu</p>
+        </div>
+
+        <!-- Start Carousel animation -->
+        <div x-data="{}" x-init="$nextTick(() => {
+          let ul = $refs.logos;
+          ul.insertAdjacentHTML('afterend', ul.outerHTML);
+          ul.nextSibling.setAttribute('aria-hidden', 'true');
+      })" class="w-full inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)]">
+          <ul x-ref="logos" class="flex items-center justify-center md:justify-start [&amp;_li]:mx-8 [&amp;_img]:max-w-none animate-infinite-scroll">
+            <li>
+                <div class="h-[350px] w-[420px] border border-gray-500 hover:border-gray-300 shadow-2xl rounded-2xl p-6 flex flex-col transition-all duration-300">
+                    <div class="flex gap-4">
+                      <div class="font-bold text-xl pt-2 text-start text-slate-200">WhiteCheddar</div>
+                    </div>
+                    <div class="text-slate-300 text-start">Scintilla is the best rat</div>
+                </div>
+            </li>
+            <li>
+                <div class="h-[350px] w-[420px] border border-gray-500 hover:border-gray-300 shadow-2xl rounded-2xl p-6 flex flex-col transition-all duration-300">
+                  <div class="flex gap-4">
+
+                    <div class="font-bold text-xl pt-2 text-start text-slate-200">STRK</div>
+                  </div>
+                  <div class="text-slate-300 text-start">I have had scintilla for over a month now and i now have 400 rats</div>
+                </div>
+            </li>
+            <li>
+                <div class="h-[350px] w-[420px] border border-gray-500 hover:border-gray-300 shadow-2xl rounded-2xl p-6 flex flex-col transition-all duration-300">
+                  <div class="flex gap-4">
+
+                    <div class="font-bold text-xl pt-2 text-start text-slate-200">mrrussianhat</div>
+                  </div>
+                  <div class="text-slate-300 text-start">Scintilla is by far the most ratted menu</div>
+                </div>
+            </li>
+            <li>
+                <div class="h-[350px] w-[420px] border border-gray-500 hover:border-gray-300 shadow-2xl rounded-2xl p-6 flex flex-col transition-all duration-300">
+                    <div class="flex gap-4">
+
+                      <div class="font-bold text-xl pt-2 text-start text-slate-200">Zerone</div>
+                    </div>
+                    <div class="text-slate-300 text-start">+rep IM RATTED</div>
+                </div>
+            </li>
+            <li>
+                <div class="h-[350px] w-[420px] border border-gray-500 hover:border-gray-300 shadow-2xl rounded-2xl p-6 flex flex-col transition-all duration-300">
+                    <div class="flex gap-4">
+
+                      <div class="font-bold text-xl pt-2 text-start text-slate-200">LowkeyLost</div>
+                    </div>
+                    <div class="text-slate-300 text-start">scintilla is the best gorilla tag rat</div>
+                </div>
+            </li>
+            <li>
+                <div class="h-[350px] w-[420px] border border-gray-500 hover:border-gray-300 shadow-2xl rounded-2xl p-6 flex flex-col transition-all duration-300">
+                  <div class="flex gap-4">
+
+                    <div class="font-bold text-xl pt-2 text-start text-slate-200">Viper</div>
+                  </div>
+                  <div class="text-slate-300 text-start">+rep scintilla, nice rats</div>
+                </div>
+            </li>
+            <li>
+              <div class="h-[350px] w-[420px] border border-gray-500 hover:border-gray-300 shadow-2xl rounded-2xl p-6 flex flex-col transition-all duration-300">
+                  <div class="flex gap-4">
+
+                    <div class="font-bold text-xl pt-2 text-start text-slate-200">! LuminousGT</div>
+                  </div>
+                  <div class="text-slate-300 text-start">
+                    +rep IM A RETARD AND I LIKE RATTED MENUS
+                  </div>
+              </div>
+            </li>
+            <li>
+              <div class="h-[350px] w-[420px] border border-gray-500 hover:border-gray-300 shadow-2xl rounded-2xl p-6 flex flex-col transition-all duration-300">
+                  <div class="flex gap-4">
+
+                    <div class="font-bold text-xl pt-2 text-start text-slate-200">im back</div>
+                  </div>
+                  <div class="text-slate-300 text-start">+rep the only menu with 400 rats</div>
+              </div>
+            </li>
+            <li>
+                <div class="h-[350px] w-[420px] border border-gray-500 hover:border-gray-300 shadow-2xl rounded-2xl p-6 flex flex-col transition-all duration-300">
+                  <div class="flex gap-4">
+
+                    <div class="font-bold text-xl pt-2 text-start text-slate-200">dror</div>
+                  </div>
+                  <div class="text-slate-300 text-start">+rep the Rats made my pc lag to shit
+                    crazy menu</div>
+                </div>
+            </li>
+            <li>
+                <div class="h-[350px] w-[420px] border border-gray-500 hover:border-gray-300 shadow-2xl rounded-2xl p-6 flex flex-col transition-all duration-300">
+                  <div class="flex gap-4">
+
+                    <div class="font-bold text-xl pt-2 text-start text-slate-200">jex</div>
+                  </div>
+                  <div class="text-slate-300 text-start">+rep rats never seen before on any other menu</div>
+                </div>
+            </li>
+            <li>
+                <div class="h-[350px] w-[420px] border border-gray-500 hover:border-gray-300 shadow-2xl rounded-2xl p-6 flex flex-col transition-all duration-300">
+                  <div class="flex gap-4">
+
+                    <div class="font-bold text-xl pt-2 text-start text-slate-200">coolguy</div>
+                  </div>
+                  <div class="text-slate-300 text-start">+rep Best rat ever recomended</div>
+                </div>
+            </li>
+        </ul><ul x-ref="logos" class="flex items-center justify-center md:justify-start [&amp;_li]:mx-8 [&amp;_img]:max-w-none animate-infinite-scroll" aria-hidden="true">
+            <li>
+                <div class="h-[350px] w-[420px] border border-gray-500 hover:border-gray-300 shadow-2xl rounded-2xl p-6 flex flex-col transition-all duration-300">
+                    <div class="flex gap-4">
+                      <div class="font-bold text-xl pt-2 text-start text-slate-200">WhiteCheddar</div>
+                    </div>
+                    <div class="text-slate-300 text-start">Scintilla is the best menu I’ve downloaded in a while, it gets constant updates, follows feedback, and it’s fully und and lagless. The custom anime mods make it so much more fun and trolling kids in lobbies is great with this menu.</div>
+                </div>
+            </li>
+            <li>
+                <div class="h-[350px] w-[420px] border border-gray-500 hover:border-gray-300 shadow-2xl rounded-2xl p-6 flex flex-col transition-all duration-300">
+                  <div class="flex gap-4">
+
+                    <div class="font-bold text-xl pt-2 text-start text-slate-200">STRK</div>
+                  </div>
+                  <div class="text-slate-300 text-start">I have had scintilla for over a month now and it is one of the best menu's I have ever used. I have used Genesis, Rexon paid, Orbit paid, and a few other menus, no other menu has had so much customibility compared to this menu, you can change the shape of the gun pointer, and the line, there's working undetected fling mods that don't teleport your rig, a working kick gun, and so much more! 10/10 definitely worth a try, you can even purchase it for 1 week and cheaper if your unsure weather to buy lifetime or temp!</div>
+                </div>
+            </li>
+            <li>
+                <div class="h-[350px] w-[420px] border border-gray-500 hover:border-gray-300 shadow-2xl rounded-2xl p-6 flex flex-col transition-all duration-300">
+                  <div class="flex gap-4">
+
+                    <div class="font-bold text-xl pt-2 text-start text-slate-200">mrrussianhat</div>
+                  </div>
+                  <div class="text-slate-300 text-start">Scintilla is by far the best menu out on the Gtag modding market. It’s got tons of mods and of course, some OP and fun mods like stutter gun and kick gun (op fr). Tons of customization and a 100/10 menu layout. No other menu can compete rn. Not to mention, it’s cheap for what you’re getting. As scintilla’s saying is, “Can Your Menu Do This?”</div>
+                </div>
+            </li>
+            <li>
+                <div class="h-[350px] w-[420px] border border-gray-500 hover:border-gray-300 shadow-2xl rounded-2xl p-6 flex flex-col transition-all duration-300">
+                    <div class="flex gap-4">
+
+                      <div class="font-bold text-xl pt-2 text-start text-slate-200">Zerone</div>
+                    </div>
+                    <div class="text-slate-300 text-start">scintilla offers a wide range of customizabilty as well as a sleek menu design and easy to access features that don't dissapoint. using scintilla is the greatest life experience that you will ever have</div>
+                </div>
+            </li>
+            <li>
+                <div class="h-[350px] w-[420px] border border-gray-500 hover:border-gray-300 shadow-2xl rounded-2xl p-6 flex flex-col transition-all duration-300">
+                    <div class="flex gap-4">
+
+                      <div class="font-bold text-xl pt-2 text-start text-slate-200">LowkeyLost</div>
+                    </div>
+                    <div class="text-slate-300 text-start">scintilla is the best gorilla tag mod menu ever, with und lag mods, and they even have an external. i reccomend this mod menu to any person wanting to ghost troll, and/or just wanting to have fun with mods!</div>
+                </div>
+            </li>
+            <li>
+                <div class="h-[350px] w-[420px] border border-gray-500 hover:border-gray-300 shadow-2xl rounded-2xl p-6 flex flex-col transition-all duration-300">
+                  <div class="flex gap-4">
+
+                    <div class="font-bold text-xl pt-2 text-start text-slate-200">Viper</div>
+                  </div>
+                  <div class="text-slate-300 text-start">+rep scintilla, Nice FUD menu with great aspects, would recommend, I’ve been using it since January 20th with no issues! Buy scintilla NOW!1!</div>
+                </div>
+            </li>
+            <li>
+              <div class="h-[350px] w-[420px] border border-gray-500 hover:border-gray-300 shadow-2xl rounded-2xl p-6 flex flex-col transition-all duration-300">
+                  <div class="flex gap-4">
+
+                    <div class="font-bold text-xl pt-2 text-start text-slate-200">! LuminousGT</div>
+                  </div>
+                  <div class="text-slate-300 text-start">
+                    +rep anime mods are WAYY to juicy, fire menu 🔥 🥶 💯
+                  </div>
+              </div>
+            </li>
+            <li>
+              <div class="h-[350px] w-[420px] border border-gray-500 hover:border-gray-300 shadow-2xl rounded-2xl p-6 flex flex-col transition-all duration-300">
+                  <div class="flex gap-4">
+
+                    <div class="font-bold text-xl pt-2 text-start text-slate-200">im back</div>
+                  </div>
+                  <div class="text-slate-300 text-start">+rep the only menu with a kick gun rn im finna gonna troll little kids with it</div>
+              </div>
+            </li>
+            <li>
+                <div class="h-[350px] w-[420px] border border-gray-500 hover:border-gray-300 shadow-2xl rounded-2xl p-6 flex flex-col transition-all duration-300">
+                  <div class="flex gap-4">
+
+                    <div class="font-bold text-xl pt-2 text-start text-slate-200">dror</div>
+                  </div>
+                  <div class="text-slate-300 text-start">+rep the optimazion is so good not a single fps - (it was even better for me idk how) the kick gun is so good shutter also crazy and the tags are insta 
+                    crazy menu</div>
+                </div>
+            </li>
+            <li>
+                <div class="h-[350px] w-[420px] border border-gray-500 hover:border-gray-300 shadow-2xl rounded-2xl p-6 flex flex-col transition-all duration-300">
+                  <div class="flex gap-4">
+
+                    <div class="font-bold text-xl pt-2 text-start text-slate-200">jex</div>
+                  </div>
+                  <div class="text-slate-300 text-start">+this mod menu includews eclusive content like alg mods buy this now</div>
+                </div>
+            </li>
+            <li>
+                <div class="h-[350px] w-[420px] border border-gray-500 hover:border-gray-300 shadow-2xl rounded-2xl p-6 flex flex-col transition-all duration-300">
+                  <div class="flex gap-4">
+
+                    <div class="font-bold text-xl pt-2 text-start text-slate-200">coolguy</div>
+                  </div>
+                  <div class="text-slate-300 text-start">Best menu ever undetected has a kick gun and lag gun It’s very good for trolling. I recommend you to buy it.</div>
+                </div>
+            </li>
+        </ul>
+        </div>
+      <!-- End carousel animation -->
+      </div>
+  </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-zinc-900 text-center pb-1 pt-1">
+    <p class="text-sm text-slate-500">
+      Rattilla Elite - Since 2021 - Pleb was here
+    </p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/particles.js"></script>
+  <script src="js/spotlight.js"></script>
+  <script src="js/reveal.js"></script>
+
+
+
+
+<div id="shimeji-workArea" style="position: fixed; background: transparent; z-index: 2147483643; width: 100vw; height: 100vh; left: 0px; top: 0px; transform: translate(0px, 0px); pointer-events: none;"></div><div id="zoom-video-ochhc"><style>
+                .scale_zoom-video-ochhc {
+                    scale: 1 !important;
+                    transform-origin: center center !important;
+                }
+                .scale:fullscreen::backdrop {
+                    background: transparent;
+                }
+            </style></div></body></html>
